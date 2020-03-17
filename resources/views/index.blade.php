@@ -10,6 +10,7 @@
             <div class="card-body">
                 <a href="{{ url('add') }}" class="btn" style="background-color:#E7E6E6;">Add New Product</a>
                 <hr>
+                <div class="table-responsive">
                 <table class="table">
                     <thead class="thead-light">
                         <tr>
@@ -47,6 +48,7 @@
                     @endforelse
                     </tbody>
                 </table>
+              </div>
                 <hr>
                 {{ $products->links() }}
             </div>
